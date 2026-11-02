@@ -1,6 +1,6 @@
 # Dubai: law history in git
 
-The law of the Emirate of Dubai (United Arab Emirates) as a git history: one file per article, one commit per law, dated the day it took effect and credited to the law itself. `git blame` names the law behind every paragraph; checking out a date gives the acts in force that day.
+The law of the Emirate of Dubai (United Arab Emirates) as a git history: one file per article where its numbering permits, one commit per law, dated the day it took effect and credited to the law itself. `git blame` names the law behind every paragraph; checking out a date gives the acts in force that day.
 
 It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `ae-du/`.
 
@@ -8,7 +8,7 @@ The text is the English version the Supreme Legislation Committee publishes. The
 
 ## What this repository holds
 
-100 acts so far: Laws and Decrees of the Ruler of Dubai that the portal lists as "In Force" and that have never been amended, each as enacted, added in parts of about forty. Acts in force as amended, acts no longer in force, and resolutions, orders and other instruments are not included yet.
+110 acts so far: Laws and Decrees of the Ruler of Dubai that the portal lists as "In Force" and that have never been amended, each as enacted, added in parts of about forty. Acts in force as amended, acts no longer in force, and resolutions, orders and other instruments are not included yet.
 
 | Folder | Act | In force from |
 | --- | --- | --- |
@@ -113,6 +113,17 @@ The text is the English version the Supreme Legislation Committee publishes. The
 | `law-2026-010/` | Law No. (10) of 2026 Amending Law No. (12) of 2020 Concerning Contracts and Warehouse Management in the Government of Dubai | 27 February 2026 |
 | `law-2026-011/` | Law No. (11) of 2026 Concerning Antiquities and Archaeological Sites in the Emirate of Dubai | 24 May 2026 |
 
+| `law-2005-010/` | Law No. (10) of 2005 Amending Law No. (3) of 1996 Concerning Government Claims | 10 May 2005 |
+| `law-2010-017/` | Law No. (17) of 2010 Dissolving the Dubai Corporation for Event Management and Organisation | 4 July 2010 |
+| `law-2024-007/` | Law No. (7) of 2024 Amending Law No. (5) of 2009 Establishing the Meydan City Corporation | 24 March 2024 |
+| `law-2024-009/` | Law No. (9) of 2024 Amending Law No. (27) of 2015 Establishing the Emirates International Accreditation Centre | 3 April 2024 |
+| `law-2024-013/` | Law No. (13) of 2024 Amending Law No. (11) of 2009 Concerning the Dubai Sports Council | 10 July 2024 |
+| `law-2024-021/` | Law No. (21) of 2024 Amending Law No. (9) of 2020 Regulating Family Property in the Emirate of Dubai | 4 September 2024 |
+| `law-2024-029/` | Law No. (29) of 2024 Amending Law No. (5) of 2022 Establishing the Dubai Media Council | 10 December 2024 |
+| `law-2025-009/` | Law No. (9) of 2025 Amending Law No. (18) of 2021 Regulating Conciliation in the Emirate of Dubai | 17 July 2025 |
+| `decree-2025-032/` | Decree No. (32) of 2025 Amending Decree No. (3) of 2022 Forming the Financial Markets Law Enforcement Committee in the Emirate of Dubai | 8 July 2025 |
+| `decree-2026-007/` | Decree No. (7) of 2026 Amending Decree No. (35) of 2021 Designating the Head of the Local Judiciary in the Emirate of Dubai for the Purposes of Implementing Federal Legislation | 27 February 2026 |
+
 ## Source
 
 The Dubai Legislation Portal of the General Secretariat of the Supreme Legislation Committee in the Emirate of Dubai, <https://dlp.dubai.gov.ae/>. For each act it publishes the English version as a web page and as a PDF; the web page is the text used here, and the PDF is read by a second, independent reader to check it. Only each act's own text is taken: the portal's summaries, classification and notes are not copied.
@@ -125,7 +136,7 @@ The Dubai Legislation Portal of the General Secretariat of the Supreme Legislati
 
 ## Files
 
-`<act>/art-005.md` is Article (5), with the heading printed above it; `preamble.md` holds the title, the recitals ("After perusal of ...") and the enacting words; `closing.md` the signature and the place and date of issue; `annex.md` anything printed after the signature. Acts are named `law-<year>-<number>` and `decree-<year>-<number>`. One paragraph per line; a definition is one line.
+`<act>/text.md` holds the complete text of an amending act when its quoted replacement articles repeat article numbers. `<act>/art-005.md` is Article (5), with the heading printed above it; `preamble.md` holds the title, the recitals ("After perusal of ...") and the enacting words; `closing.md` the signature and the place and date of issue; `annex.md` anything printed after the signature. Acts are named `law-<year>-<number>` and `decree-<year>-<number>`. One paragraph per line; a definition is one line.
 
 ## How it is checked
 
