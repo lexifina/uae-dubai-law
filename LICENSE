@@ -1,0 +1,31 @@
+The law texts in this repository are official texts of the Emirate of Dubai: the English versions of its Laws
+and Decrees published by the General Secretariat of the Supreme Legislation Committee on the Dubai Legislation Portal,
+https://dlp.dubai.gov.ae/.
+
+The portal's Terms and Conditions (https://dlp.dubai.gov.ae/en/Pages/TermsAndConditions.aspx, read on
+2 November 2026) say:
+
+"Unless otherwise stated, you may download, store and/or use the Portal material for your own personal use and/or research purposes only. You may not, however, republish, retransmit, redistribute or otherwise make the material available to any other party or make the same available on any web Portal, on-line service or bulletin board of your own or of any other party or make the same available in hard copy or on any other media or commercially exploit such material in any manner without the Supreme Legislation Committee express prior written consent."
+
+UAE copyright law excludes official texts from protection. Federal Decree-Law No. 38 of 2021 on Copyrights and
+Neighboring Rights, art. 3 (official copy: Ministry of Economy and Tourism, https://www.moet.gov.ae/intellectual-property-legislations):
+
+"لا تشمل الحماية ما يأتي: ... 2. الوثائق الرسمية أياً كانت لغتها الأصلية، أو اللغة المنقولة إليها، مثل نصوص القوانين واللوائح والقرارات والاتفاقيات الدولية والأحكام القضائية، وأحكام المحكمين والقرارات الصادرة من اللجان الإدارية ذات الاختصاص القضائي."
+(Protection does not cover the following: ... 2. Official documents, whatever their original language or the language into which they are translated, such as the texts of laws, regulations, resolutions, international agreements, judicial rulings, arbitral awards and the decisions of administrative committees with judicial competence.)
+
+The same article continues:
+
+"ومع ذلك تتمتع مجموعات ما ورد في البنود (2)، (3)، (4) من هذه المادة بالحماية إذا تميز جمعها أو ترتيبها أو أي مجهود فيها بالابتكار."
+(However, collections of what is mentioned in items (2), (3) and (4) of this article are protected if their compilation, arrangement or any effort in them is distinguished by originality.)
+
+The texts are official acts excluded from copyright by Federal Decree-Law No. 38 of 2021, art. 3; this record relies on that exemption.
+Following the second sentence, this repository takes only each act's own text, not the portal's selection,
+arrangement, summaries or notes; its own arrangement is Lexifina's.
+
+The source is credited: Source: Supreme Legislation Committee in the Emirate of Dubai, Dubai Legislation Portal, https://dlp.dubai.gov.ae/ (consulted 2026-11-02).
+
+This repository is not an official publication. The English version is not authoritative; the Arabic text published
+in the Official Gazette of the Government of Dubai prevails.
+
+Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are
+dedicated to the public domain under CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/
