@@ -114,20 +114,30 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | `law-2026-006` | Law No. (6) of 2026 Concerning Administrative Violations, Penalties, and Measures in the Emirate of Dubai | 1 | 2026-03-16 to 2026-03-16 |
 | `law-2026-010` | Law No. (10) of 2026 Amending Law No. (12) of 2020 Concerning Contracts and Warehouse Management in the Government of Dubai | 1 | 2026-02-27 to 2026-02-27 |
 | `law-2026-011` | Law No. (11) of 2026 Concerning Antiquities and Archaeological Sites in the Emirate of Dubai | 1 | 2026-05-24 to 2026-05-24 |
+| `law-2005-010` | Law No. (10) of 2005 Amending Law No. (3) of 1996 Concerning Government Claims | 1 | 2005-05-10 to 2005-05-10 |
+| `law-2010-017` | Law No. (17) of 2010 Dissolving the Dubai Corporation for Event Management and Organisation | 1 | 2010-07-04 to 2010-07-04 |
+| `law-2024-007` | Law No. (7) of 2024 Amending Law No. (5) of 2009 Establishing the Meydan City Corporation | 1 | 2024-03-24 to 2024-03-24 |
+| `law-2024-009` | Law No. (9) of 2024 Amending Law No. (27) of 2015 Establishing the Emirates International Accreditation Centre | 1 | 2024-04-03 to 2024-04-03 |
+| `law-2024-013` | Law No. (13) of 2024 Amending Law No. (11) of 2009 Concerning the Dubai Sports Council | 1 | 2024-07-10 to 2024-07-10 |
+| `law-2024-021` | Law No. (21) of 2024 Amending Law No. (9) of 2020 Regulating Family Property in the Emirate of Dubai | 1 | 2024-09-04 to 2024-09-04 |
+| `law-2024-029` | Law No. (29) of 2024 Amending Law No. (5) of 2022 Establishing the Dubai Media Council | 1 | 2024-12-10 to 2024-12-10 |
+| `law-2025-009` | Law No. (9) of 2025 Amending Law No. (18) of 2021 Regulating Conciliation in the Emirate of Dubai | 1 | 2025-07-17 to 2025-07-17 |
+| `decree-2025-032` | Decree No. (32) of 2025 Amending Decree No. (3) of 2022 Forming the Financial Markets Law Enforcement Committee in the Emirate of Dubai | 1 | 2025-07-08 to 2025-07-08 |
+| `decree-2026-007` | Decree No. (7) of 2026 Amending Decree No. (35) of 2021 Designating the Head of the Local Judiciary in the Emirate of Dubai for the Purposes of Implementing Federal Legislation | 1 | 2026-02-27 to 2026-02-27 |
 
-The build made 100 commits:
+The build made 110 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 100 | first version of an act |
+| 110 | first version of an act |
 | 0 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
 Other counts:
 - 0 commits on the branch `future`: laws not yet in force on 2026-11-02.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
-- 100 laws in the record.
-- 200 tags.
+- 110 laws in the record.
+- 220 tags.
 
 ## Dates
 
@@ -139,13 +149,13 @@ When a law gives no date of its own, the default rule applies: Each Law or Decre
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `681b4b577e05d7fabaef61b93e99098b2a09cb52c9142be69253481de755c2da` (1662687 bytes).
+- Corpus: sha256 `80511ea63c95d1aa7536259941e2af367a8ef97c4d7b796a7326ee6febac63f4` (1759905 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `35388bee5aa05369f7da68f5a8fa015ea8d442b8`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
 - Python 3.14.4; git version 2.53.0.
 
 ## Checks
 
-100 versions of 100 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
+Not yet run for this build.
 
 No second build of this corpus has been compared yet.
 
@@ -156,6 +166,9 @@ No second build of this corpus has been compared yet.
 - Text comes from the portal's Word-HTML page of each act. Footnote marks, the footnote on the English version, the copyright line and separator rules are left out. A table row (a definition) is one line.
 - Units: preamble (title, recitals and enacting words), one file per Article with the heading line printed above it, closing (signature, place and date of issue) and annex (anything printed after the signature).
 - Federal Decree-Law No. 38 of 2021 art. 3 protects original collections of official documents: only each act's own text is taken; the portal's classification, summaries and notes are not copied.
+- These ten English acts are recorded as enacted from the Dubai Legislation Portal. Their dates come from their own commencement clauses and the portal issue dates; Law No. (9) of 2025 uses the publication day printed on the cover of Official Gazette No. 727.
+- Amending acts with repeated Article numbers are stored as one complete-text unit so quoted replacement articles and the amending act's own articles remain in source order. Law No. (17) of 2010 has separately split articles.
+- The text was extracted mechanically from each official HTML page. Letters and digits were checked against the portal PDF of the same act.
 
 ## What AI did and did not do
 
@@ -167,3 +180,4 @@ The commit messages are written by `build.py` from the source data.
 
 Model use at data-build time:
 - A model (Claude) wrote the fetch and parse code and chose which acts to include; it wrote no law text.
+- A model selected acts and dates and wrote extraction and verification code; it wrote no law text.

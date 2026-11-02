@@ -1400,6 +1400,146 @@
      "sha256": "c0f9eb778569bb057354687cd45b22957d87450264a5c43c807563bf16d481d9"
     }
    ]
+  },
+  {
+   "slug": "law-2005-010",
+   "short": "Law No. (10) of 2005",
+   "title": "Law No. (10) of 2005 Amending Law No. (3) of 1996 Concerning Government Claims",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2005/Law%20No.%20%2810%29%20of%202005%20Amending%20Law%20No.%20%283%29%20of%201996.pdf",
+   "versions": [
+    {
+     "from": "2005-05-10",
+     "units": 1,
+     "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2005/Law%20No.%20%2810%29%20of%202005%20Amending%20Law%20No.%20%283%29%20of%201996.html",
+     "sha256": "7062d97ab59079c0b2f6f67804e01752b2e8d9539f312350da94644b23450d29"
+    }
+   ]
+  },
+  {
+   "slug": "law-2010-017",
+   "short": "Law No. (17) of 2010",
+   "title": "Law No. (17) of 2010 Dissolving the Dubai Corporation for Event Management and Organisation",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2010/Law%2017%20of%202010.pdf",
+   "versions": [
+    {
+     "from": "2010-07-04",
+     "units": 5,
+     "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2010/Law%2017%20of%202010.html",
+     "sha256": "49d645335c7dd6f740de4d0d4b55e48e9c81a609e66ea02c9ddab106c79bdcbb"
+    }
+   ]
+  },
+  {
+   "slug": "law-2024-007",
+   "short": "Law No. (7) of 2024",
+   "title": "Law No. (7) of 2024 Amending Law No. (5) of 2009 Establishing the Meydan City Corporation",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Law%20No.%20%287%29%20of%202024%20Establishing%20the%20Meydan%20City%20Corporation.pdf",
+   "versions": [
+    {
+     "from": "2024-03-24",
+     "units": 1,
+     "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Law%20No.%20%287%29%20of%202024%20Establishing%20the%20Meydan%20City%20Corporation.html",
+     "sha256": "d9fd799176ee09aa3716ec2f41ae9582319546e276fbd33932ebdfaeb43961be"
+    }
+   ]
+  },
+  {
+   "slug": "law-2024-009",
+   "short": "Law No. (9) of 2024",
+   "title": "Law No. (9) of 2024 Amending Law No. (27) of 2015 Establishing the Emirates International Accreditation Centre",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Law%20No.%20%289%29%20of%202024%20Emirates%20International%20Accreditation%20Centre.pdf",
+   "versions": [
+    {
+     "from": "2024-04-03",
+     "units": 1,
+     "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Law%20No.%20%289%29%20of%202024%20Emirates%20International%20Accreditation%20Centre.html",
+     "sha256": "7eeb6401a346aaed9ea649f9749d9c84dfa37ebf91b63fd5aa07f34238eb14b1"
+    }
+   ]
+  },
+  {
+   "slug": "law-2024-013",
+   "short": "Law No. (13) of 2024",
+   "title": "Law No. (13) of 2024 Amending Law No. (11) of 2009 Concerning the Dubai Sports Council",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Law%20No.%20%2813%29%20of%202024%20Concerning%20the%20Dubai%20Sports%20Council.pdf",
+   "versions": [
+    {
+     "from": "2024-07-10",
+     "units": 1,
+     "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Law%20No.%20%2813%29%20of%202024%20Concerning%20the%20Dubai%20Sports%20Council.html",
+     "sha256": "ede65fcb7c28a626e05540168f427416a366bb479937a589df53cc4cad752994"
+    }
+   ]
+  },
+  {
+   "slug": "law-2024-021",
+   "short": "Law No. (21) of 2024",
+   "title": "Law No. (21) of 2024 Amending Law No. (9) of 2020 Regulating Family Property in the Emirate of Dubai",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Law%20No.%20%2821%29%20of%202024%20Amending%20Law%20No.%20%289%29%20of%202020%20Regulating%20Family%20of%20Dubai.pdf",
+   "versions": [
+    {
+     "from": "2024-09-04",
+     "units": 1,
+     "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Law%20No.%20%2821%29%20of%202024%20Amending%20Law%20No.%20%289%29%20of%202020%20Regulating%20Family%20of%20Dubai.html",
+     "sha256": "875a18a3517aa0666204fade849dca7f535032d2d4061ebea4e28eb0b54a6696"
+    }
+   ]
+  },
+  {
+   "slug": "law-2024-029",
+   "short": "Law No. (29) of 2024",
+   "title": "Law No. (29) of 2024 Amending Law No. (5) of 2022 Establishing the Dubai Media Council",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Law%20No.%20%2829%29%20of%202024%20Establishing%20the%20Dubai%20Media%20Council.pdf",
+   "versions": [
+    {
+     "from": "2024-12-10",
+     "units": 1,
+     "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Law%20No.%20%2829%29%20of%202024%20Establishing%20the%20Dubai%20Media%20Council.html",
+     "sha256": "a6cc7744fa23cd0db04f33128c555c2de5ffc652742d038bb4c3f48d735e57f1"
+    }
+   ]
+  },
+  {
+   "slug": "law-2025-009",
+   "short": "Law No. (9) of 2025",
+   "title": "Law No. (9) of 2025 Amending Law No. (18) of 2021 Regulating Conciliation in the Emirate of Dubai",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2025/Law%20No.%20%289%29%20of%202025%20Regulating%20Conciliation%20in%20Dubai.pdf",
+   "versions": [
+    {
+     "from": "2025-07-17",
+     "units": 1,
+     "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2025/Law%20No.%20%289%29%20of%202025%20Regulating%20Conciliation%20in%20Dubai.html",
+     "sha256": "c7e4a4706cd3c256e6f6b4332d3669b94405224f64fb189b47a5ccef5e57af6d"
+    }
+   ]
+  },
+  {
+   "slug": "decree-2025-032",
+   "short": "Decree No. (32) of 2025",
+   "title": "Decree No. (32) of 2025 Amending Decree No. (3) of 2022 Forming the Financial Markets Law Enforcement Committee in the Emirate of Dubai",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2025/Decree%20No.%20%2832%29%20of%202025%20Forming%20the%20Financial%20Markets%20Law.pdf",
+   "versions": [
+    {
+     "from": "2025-07-08",
+     "units": 1,
+     "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2025/Decree%20No.%20%2832%29%20of%202025%20Forming%20the%20Financial%20Markets%20Law.html",
+     "sha256": "1ce78b31e68637a0e95186b151d312376a6970d7981d79f6dd3c4ff72e2f1e0b"
+    }
+   ]
+  },
+  {
+   "slug": "decree-2026-007",
+   "short": "Decree No. (7) of 2026",
+   "title": "Decree No. (7) of 2026 Amending Decree No. (35) of 2021 Designating the Head of the Local Judiciary in the Emirate of Dubai for the Purposes of Implementing Federal Legislation",
+   "url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2026/Decree%20No.%20%287%29%20of%202026%20Amending%20Decree%20No.%20%2835%29%20of%202021.pdf",
+   "versions": [
+    {
+     "from": "2026-02-27",
+     "units": 1,
+     "source_url": "https://dlp.dubai.gov.ae/Legislation%20Reference/2026/Decree%20No.%20%287%29%20of%202026%20Amending%20Decree%20No.%20%2835%29%20of%202021.html",
+     "sha256": "9927e4ca01cc21954c2a7a7ea1a27204018826230f548b2f1338af4411068d98"
+    }
+   ]
   }
  ]
 }
