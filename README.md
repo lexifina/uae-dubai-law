@@ -1,5 +1,7 @@
 # Dubai: law history in git
 
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the law of Dubai, United Arab Emirates, which global-law reads at `united-arab-emirates/dubai/acts/`.
+
 The law of the Emirate of Dubai (United Arab Emirates) as a git history: one file per article where its numbering permits, one commit per law, dated the day it took effect and credited to the law itself. `git blame` names the law behind every paragraph; checking out a date gives the acts in force that day.
 
 It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `ae-du/`.
